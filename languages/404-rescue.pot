@@ -1,0 +1,768 @@
+# Copyright (C) 2026 Glenn Lawrence Ramos
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: 404 Rescue 1.0.0\n"
+"Report-Msgid-Bugs-To: glenramos0406@gmail.com\n"
+"POT-Creation-Date: 2026-11-23 14:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: 404-rescue\n"
+
+#: admin/views/dashboard.php:104
+msgid "Recent 404 activity"
+msgstr ""
+
+#: admin/views/dashboard.php:109 admin/views/errors.php:191
+msgid "Broken URL"
+msgstr ""
+
+#: admin/views/dashboard.php:110 admin/views/errors.php:64 admin/views/errors.php:192
+msgid "Visits"
+msgstr ""
+
+#: admin/views/dashboard.php:111 admin/views/errors.php:68 admin/views/errors.php:193
+msgid "First seen"
+msgstr ""
+
+#: admin/views/dashboard.php:112 admin/views/errors.php:72 admin/views/errors.php:194
+msgid "Last seen"
+msgstr ""
+
+#: admin/views/dashboard.php:113 admin/views/errors.php:195
+msgid "Suggested page"
+msgstr ""
+
+#: admin/views/dashboard.php:114
+msgid "Action"
+msgstr ""
+
+#: admin/views/dashboard.php:144 admin/views/errors.php:105 admin/views/errors.php:226
+msgid "Create redirect"
+msgstr ""
+
+#: admin/views/dashboard.php:26 includes/class-admin.php:80 includes/class-admin.php:81
+msgid "404 Rescue"
+msgstr ""
+
+#: admin/views/dashboard.php:27
+msgid "See which pages visitors could not find, and send them somewhere useful."
+msgstr ""
+
+#: admin/views/dashboard.php:30 admin/views/dashboard.php:95
+msgid "View all errors"
+msgstr ""
+
+#: admin/views/dashboard.php:31 admin/views/dashboard.php:96
+msgid "Add redirect"
+msgstr ""
+
+#: admin/views/dashboard.php:37
+msgid "Summary"
+msgstr ""
+
+#: admin/views/dashboard.php:39
+msgid "Total 404 visits"
+msgstr ""
+
+#: admin/views/dashboard.php:41
+msgid "Times a visitor opened a missing page"
+msgstr ""
+
+#: admin/views/dashboard.php:44 admin/views/errors.php:26 includes/class-admin.php:612
+msgid "Needs attention"
+msgstr ""
+
+#: admin/views/dashboard.php:46
+msgid "Different broken addresses still waiting"
+msgstr ""
+
+#: admin/views/dashboard.php:49
+msgid "Active redirects"
+msgstr ""
+
+#: admin/views/dashboard.php:51
+msgid "Old addresses that send people to a new page"
+msgstr ""
+
+#: admin/views/dashboard.php:54
+msgid "Redirects added"
+msgstr ""
+
+#: admin/views/dashboard.php:56
+msgid "Broken addresses you have already handled"
+msgstr ""
+
+#: admin/views/dashboard.php:62 admin/views/errors.php:154
+msgid "No missing pages yet"
+msgstr ""
+
+#: admin/views/dashboard.php:63
+msgid "When someone visits a page that does not exist, it will show up here. Try opening a made-up address on your site, then come back."
+msgstr ""
+
+#: admin/views/dashboard.php:64 admin/views/dashboard.php:98
+msgid "Configure settings"
+msgstr ""
+
+#: admin/views/dashboard.php:69
+msgid "Last 7 days"
+msgstr ""
+
+#: admin/views/dashboard.php:70 admin/views/dashboard.php:80
+msgid "Missing-page visits for the last seven days"
+msgstr ""
+
+#: admin/views/dashboard.php:93
+msgid "Quick actions"
+msgstr ""
+
+#: admin/views/dashboard.php:97
+msgid "Export errors"
+msgstr ""
+
+#: admin/views/errors.php:111
+msgid "Check again for a page"
+msgstr ""
+
+#: admin/views/errors.php:117
+msgid "Filter broken URLs"
+msgstr ""
+
+#: admin/views/errors.php:126
+msgid "Five or more visits"
+msgstr ""
+
+#: admin/views/errors.php:138
+msgid "Search broken URLs"
+msgstr ""
+
+#: admin/views/errors.php:139 admin/views/redirects.php:127
+msgid "Search addresses"
+msgstr ""
+
+#: admin/views/errors.php:142
+msgid "Sort"
+msgstr ""
+
+#: admin/views/errors.php:144
+msgid "Recently seen"
+msgstr ""
+
+#: admin/views/errors.php:145
+msgid "Most visits"
+msgstr ""
+
+#: admin/views/errors.php:146
+msgid "Oldest first"
+msgstr ""
+
+#: admin/views/errors.php:149 admin/views/errors.php:170
+msgid "Apply"
+msgstr ""
+
+#: admin/views/errors.php:154
+msgid "Nothing matches this list"
+msgstr ""
+
+#: admin/views/errors.php:155
+msgid "Broken addresses appear here after someone visits a page that does not exist."
+msgstr ""
+
+#: admin/views/errors.php:158
+msgid "Delete the selected broken URLs?"
+msgstr ""
+
+#: admin/views/errors.php:162
+msgid "Bulk action"
+msgstr ""
+
+#: admin/views/errors.php:164
+msgid "Bulk actions"
+msgstr ""
+
+#: admin/views/errors.php:165 admin/views/errors.php:232
+msgid "Ignore"
+msgstr ""
+
+#: admin/views/errors.php:166
+msgid "Export"
+msgstr ""
+
+#: admin/views/errors.php:167 admin/views/errors.php:239 admin/views/redirects.php:174
+msgid "Delete"
+msgstr ""
+
+#. translators: 1: first row number, 2: last row number, 3: total rows
+#: admin/views/errors.php:176
+msgid "Showing %1$s–%2$s of %3$s"
+msgstr ""
+
+#: admin/views/errors.php:190
+msgid "Select all on this page"
+msgstr ""
+
+#: admin/views/errors.php:197 admin/views/redirects.php:146
+msgid "Actions"
+msgstr ""
+
+#: admin/views/errors.php:225
+msgid "Details"
+msgstr ""
+
+#: admin/views/errors.php:232
+msgid "Restore"
+msgstr ""
+
+#: admin/views/errors.php:234
+msgid "Delete this broken URL?"
+msgstr ""
+
+#: admin/views/errors.php:249 admin/views/redirects.php:183
+msgid "Pages"
+msgstr ""
+
+#: admin/views/errors.php:25 admin/views/redirects.php:106
+msgid "All"
+msgstr ""
+
+#: admin/views/errors.php:258 admin/views/redirects.php:192
+msgid "Previous"
+msgstr ""
+
+#: admin/views/errors.php:259 admin/views/redirects.php:193
+msgid "Next"
+msgstr ""
+
+#: admin/views/errors.php:27 includes/class-admin.php:608
+msgid "Redirect added"
+msgstr ""
+
+#: admin/views/errors.php:28 includes/class-admin.php:610
+msgid "Ignored"
+msgstr ""
+
+#: admin/views/errors.php:29
+msgid "Busy"
+msgstr ""
+
+#: admin/views/errors.php:51
+msgid "404 errors"
+msgstr ""
+
+#: admin/views/errors.php:52
+msgid "These are pages people tried to open and could not. Create a redirect when you know where they should go."
+msgstr ""
+
+#: admin/views/errors.php:54
+msgid "Export this list"
+msgstr ""
+
+#: admin/views/errors.php:76 admin/views/errors.php:196 admin/views/redirects.php:145
+msgid "Status"
+msgstr ""
+
+#: admin/views/errors.php:80
+msgid "Came from"
+msgstr ""
+
+#: admin/views/errors.php:83 admin/views/errors.php:91
+msgid "Not available"
+msgstr ""
+
+#: admin/views/errors.php:90
+msgid "Browser"
+msgstr ""
+
+#: admin/views/errors.php:94
+msgid "The browser string is shortened so you can tell a person from a bot. IP addresses are not stored. The “came from” page does not include any private query string."
+msgstr ""
+
+#: admin/views/redirects.php:103
+msgid "Filter redirects"
+msgstr ""
+
+#: admin/views/redirects.php:107 admin/views/redirects.php:160 includes/class-admin.php:508
+msgid "On"
+msgstr ""
+
+#: admin/views/redirects.php:108 admin/views/redirects.php:160 includes/class-admin.php:508
+msgid "Off"
+msgstr ""
+
+#: admin/views/redirects.php:126
+msgid "Search redirects"
+msgstr ""
+
+#: admin/views/redirects.php:129
+msgid "Search"
+msgstr ""
+
+#: admin/views/redirects.php:134
+msgid "No redirects yet"
+msgstr ""
+
+#: admin/views/redirects.php:135
+msgid "Add one above, or import a CSV file."
+msgstr ""
+
+#: admin/views/redirects.php:142
+msgid "From"
+msgstr ""
+
+#: admin/views/redirects.php:143
+msgid "To"
+msgstr ""
+
+#: admin/views/redirects.php:144
+msgid "Type"
+msgstr ""
+
+#: admin/views/redirects.php:162
+msgid "Edit"
+msgstr ""
+
+#: admin/views/redirects.php:168 includes/class-admin.php:509
+msgid "Turn off"
+msgstr ""
+
+#: admin/views/redirects.php:168 includes/class-admin.php:509
+msgid "Turn on"
+msgstr ""
+
+#: admin/views/redirects.php:170
+msgid "Delete this redirect?"
+msgstr ""
+
+#: admin/views/redirects.php:26
+msgid "301 Permanent — the usual choice"
+msgstr ""
+
+#: admin/views/redirects.php:27
+msgid "302 Temporary"
+msgstr ""
+
+#: admin/views/redirects.php:28
+msgid "307 Temporary, keep the request type"
+msgstr ""
+
+#: admin/views/redirects.php:29
+msgid "308 Permanent, keep the request type"
+msgstr ""
+
+#: admin/views/redirects.php:35 includes/class-admin.php:90
+msgid "Redirects"
+msgstr ""
+
+#: admin/views/redirects.php:36
+msgid "Choose where visitors should go when they visit a broken link. Nothing is sent automatically from a suggestion."
+msgstr ""
+
+#: admin/views/redirects.php:38
+msgid "Export redirects"
+msgstr ""
+
+#: admin/views/redirects.php:44
+msgid "Edit redirect"
+msgstr ""
+
+#: admin/views/redirects.php:44
+msgid "Add a redirect"
+msgstr ""
+
+#: admin/views/redirects.php:50
+msgid "When someone visits"
+msgstr ""
+
+#: admin/views/redirects.php:53
+msgid "Use the path on this site, such as /old-page."
+msgstr ""
+
+#: admin/views/redirects.php:65
+msgid "Send them to"
+msgstr ""
+
+#: admin/views/redirects.php:68
+msgid "A page on this site, or a full https:// address on another site. Check a suggested page before you save it."
+msgstr ""
+
+#: admin/views/redirects.php:70
+msgid "Redirect type"
+msgstr ""
+
+#: admin/views/redirects.php:79
+msgid "Turn this redirect on"
+msgstr ""
+
+#: admin/views/redirects.php:82
+msgid "Update redirect"
+msgstr ""
+
+#: admin/views/redirects.php:82
+msgid "Save redirect"
+msgstr ""
+
+#: admin/views/redirects.php:83
+msgid "Find a page on this site"
+msgstr ""
+
+#: admin/views/redirects.php:85
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/redirects.php:92
+msgid "Import from a spreadsheet"
+msgstr ""
+
+#: admin/views/redirects.php:93
+msgid "Use columns named source, destination, type, and active. Invalid rows are skipped and listed. Nothing in the file is run as code."
+msgstr ""
+
+#: admin/views/redirects.php:98
+msgid "Import CSV"
+msgstr ""
+
+#: admin/views/redirects.php:99
+msgid "Download a sample file"
+msgstr ""
+
+#: admin/views/settings.php:18 includes/class-admin.php:67 includes/class-admin.php:91
+msgid "Settings"
+msgstr ""
+
+#: admin/views/settings.php:19
+msgid "Logging and redirects are on by default. Change only what you need."
+msgstr ""
+
+#: admin/views/settings.php:29
+msgid "General"
+msgstr ""
+
+#: admin/views/settings.php:33
+msgid "Record missing pages"
+msgstr ""
+
+#: admin/views/settings.php:34
+msgid "Keep a log when a visitor opens a page that does not exist."
+msgstr ""
+
+#: admin/views/settings.php:40
+msgid "Send visitors to the new page"
+msgstr ""
+
+#: admin/views/settings.php:41
+msgid "Use the redirects you have saved. Turn this off to keep the rules without using them."
+msgstr ""
+
+#: admin/views/settings.php:47
+msgid "Addresses to ignore"
+msgstr ""
+
+#: admin/views/settings.php:50
+msgid "One address per line. Use * as a wildcard, for example /temporary/*. These visits are not recorded. A redirect you create for the same address still works. A line of just * is ignored, so you cannot hide the whole site by accident."
+msgstr ""
+
+#: admin/views/settings.php:53
+msgid "How long to keep logs"
+msgstr ""
+
+#: admin/views/settings.php:55
+msgid "7 days"
+msgstr ""
+
+#: admin/views/settings.php:56
+msgid "30 days"
+msgstr ""
+
+#: admin/views/settings.php:57
+msgid "60 days"
+msgstr ""
+
+#: admin/views/settings.php:58
+msgid "90 days"
+msgstr ""
+
+#: admin/views/settings.php:59
+msgid "Keep until I delete them"
+msgstr ""
+
+#: admin/views/settings.php:62
+msgid "Old broken-address logs are removed on a daily cleanup. Redirect rules are never removed by cleanup."
+msgstr ""
+
+#: admin/views/settings.php:65
+msgid "Maximum stored broken addresses"
+msgstr ""
+
+#: admin/views/settings.php:68
+msgid "When the log is full, new addresses are not added until you raise the limit or old ones are removed. Repeat visits to an address already in the log are still counted."
+msgstr ""
+
+#: admin/views/settings.php:73
+msgid "Email reports"
+msgstr ""
+
+#: admin/views/settings.php:74
+msgid "Your choice is saved for a later version. This version does not send email."
+msgstr ""
+
+#: admin/views/settings.php:81
+msgid "Delete all 404 Rescue data if I delete this plugin"
+msgstr ""
+
+#: admin/views/settings.php:82
+msgid "Leave this off to keep logs and redirects in the database. Deactivating the plugin never deletes them."
+msgstr ""
+
+#: admin/views/settings.php:86
+msgid "Save settings"
+msgstr ""
+
+#. translators: %s: version number
+#: admin/views/settings.php:87
+msgid "404 Rescue %s"
+msgstr ""
+
+#: includes/class-admin.php:112
+msgid "Working…"
+msgstr ""
+
+#: includes/class-admin.php:113
+msgid "Something went wrong. Reload the page and try again."
+msgstr ""
+
+#: includes/class-admin.php:114
+msgid "No close page was found. Type the destination yourself."
+msgstr ""
+
+#: includes/class-admin.php:342
+msgid "Select at least one broken URL to export."
+msgstr ""
+
+#: includes/class-admin.php:350
+msgid "Select at least one broken URL first."
+msgstr ""
+
+#. translators: %d: number of rows
+#: includes/class-admin.php:360
+msgid "Deleted %d broken URL."
+msgid_plural "Deleted %d broken URLs."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of rows
+#: includes/class-admin.php:370
+msgid "Ignored %d broken URL."
+msgid_plural "Ignored %d broken URLs."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-admin.php:375
+msgid "Choose an action first."
+msgstr ""
+
+#: includes/class-admin.php:390
+msgid "That broken URL could not be found."
+msgstr ""
+
+#: includes/class-admin.php:396
+msgid "Broken URL deleted."
+msgstr ""
+
+#: includes/class-admin.php:401
+msgid "Broken URL ignored. It stays in the log and will not be listed as needing attention."
+msgstr ""
+
+#: includes/class-admin.php:404
+msgid "Broken URL restored to the list that needs attention."
+msgstr ""
+
+#: includes/class-admin.php:407
+msgid "Suggestion updated. Check that the page is the right one before you redirect."
+msgstr ""
+
+#: includes/class-admin.php:409
+msgid "That action is not available."
+msgstr ""
+
+#: includes/class-admin.php:456 includes/class-admin.php:466
+msgid "Choose a CSV file to import."
+msgstr ""
+
+#: includes/class-admin.php:470
+msgid "That file is larger than 2 MB. Split it and try again."
+msgstr ""
+
+#: includes/class-admin.php:475
+msgid "Use a file that ends in .csv."
+msgstr ""
+
+#: includes/class-admin.php:524
+msgid "Enter a page address on this site, such as /old-page."
+msgstr ""
+
+#. translators: 1: imported count, 2: skipped count, 3: failed count
+#: includes/class-admin.php:568
+msgid "Import finished. %1$d added, %2$d skipped, %3$d failed."
+msgstr ""
+
+#: includes/class-admin.php:585
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-admin.php:652 includes/class-admin.php:668
+msgid "You do not have permission to do that."
+msgstr ""
+
+#: includes/class-admin.php:653
+msgid "Forbidden"
+msgstr ""
+
+#: includes/class-admin.php:66 includes/class-admin.php:88
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-admin.php:89
+msgid "404 Errors"
+msgstr ""
+
+#: includes/class-csv.php:143
+msgid "The file could not be read."
+msgstr ""
+
+#: includes/class-csv.php:169
+msgid "Import stopped after 2,000 rows."
+msgstr ""
+
+#: includes/class-csv.php:188
+msgid "The file did not contain any redirect rows."
+msgstr ""
+
+#. translators: 1: row number, 2: reason
+#: includes/class-csv.php:229 includes/class-csv.php:259
+msgid "Row %1$d: %2$s"
+msgstr ""
+
+#: includes/class-redirect-manager.php:173
+msgid "Redirect saved. Visitors to the old address will be sent to the new one."
+msgstr ""
+
+#: includes/class-redirect-manager.php:174
+msgid "Redirect saved, and it is turned off."
+msgstr ""
+
+#: includes/class-redirect-manager.php:188 includes/class-redirect-manager.php:246 includes/class-redirect-manager.php:291
+msgid "That redirect could not be found."
+msgstr ""
+
+#: includes/class-redirect-manager.php:216
+msgid "The redirect could not be saved."
+msgstr ""
+
+#: includes/class-redirect-manager.php:233
+msgid "Redirect updated."
+msgstr ""
+
+#: includes/class-redirect-manager.php:278
+msgid "Redirect turned on."
+msgstr ""
+
+#: includes/class-redirect-manager.php:279
+msgid "Redirect turned off. The old address will be a missing page again."
+msgstr ""
+
+#: includes/class-redirect-manager.php:301
+msgid "Redirect deleted."
+msgstr ""
+
+#: includes/class-redirect-manager.php:427
+msgid "Choose where visitors should go."
+msgstr ""
+
+#: includes/class-redirect-manager.php:430
+msgid "That destination address is not allowed. Use a page on this site, or a full https:// address."
+msgstr ""
+
+#: includes/class-redirect-manager.php:433
+msgid "Add https:// at the start to send visitors to another website."
+msgstr ""
+
+#: includes/class-redirect-manager.php:439
+msgid "That destination address is not allowed. Use a normal https:// page."
+msgstr ""
+
+#: includes/class-redirect-manager.php:453
+msgid "Enter a page on this site, such as /new-page, or a full https:// address."
+msgstr ""
+
+#: includes/class-redirect-manager.php:456
+msgid "Visitors cannot be sent to a WordPress system address."
+msgstr ""
+
+#: includes/class-redirect-manager.php:47
+msgid "Choose 301, 302, 307, or 308."
+msgstr ""
+
+#: includes/class-redirect-manager.php:53
+msgid "Enter a page address from this site, such as /old-page."
+msgstr ""
+
+#: includes/class-redirect-manager.php:56
+msgid "The home page cannot be the broken address."
+msgstr ""
+
+#: includes/class-redirect-manager.php:59
+msgid "That address belongs to WordPress and cannot be redirected."
+msgstr ""
+
+#: includes/class-redirect-manager.php:68
+msgid "The destination is the same as the broken address."
+msgstr ""
+
+#: includes/class-redirect-manager.php:79 includes/class-redirect-manager.php:160
+msgid "That address already has a redirect. Edit the existing one instead."
+msgstr ""
+
+#: includes/class-redirect-manager.php:89
+msgid "That redirect would send visitors in a circle."
+msgstr ""
+
+#: includes/class-settings.php:178
+msgid "A pattern that would hide every page was removed."
+msgstr ""
+
+#: includes/class-suggestions.php:100
+msgid "No close page was found. Choose the destination yourself."
+msgstr ""
+
+#: includes/class-suggestions.php:102
+msgid "A suggestion has not been saved for this address yet."
+msgstr ""
+
+#: includes/class-suggestions.php:80
+msgid "Strong match"
+msgstr ""
+
+#: includes/class-suggestions.php:82
+msgid "Possible match"
+msgstr ""
+
+#: includes/class-suggestions.php:84
+msgid "No match"
+msgstr ""
+
+#: includes/class-suggestions.php:86
+msgid "Not checked yet"
+msgstr ""
+
+#: includes/class-suggestions.php:96
+msgid "The names line up. Open the page and confirm it is the right one."
+msgstr ""
+
+#: includes/class-suggestions.php:98
+msgid "This might be the right page. Check it before you save a redirect."
+msgstr ""
