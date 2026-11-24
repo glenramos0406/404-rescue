@@ -149,4 +149,6 @@ $export = wp_nonce_url( admin_url( 'admin-post.php?action=rescue404_export_error
 			</div>
 		</section>
 	<?php endif; ?>
+
+	<?php \Rescue404\Admin::donate_note(); ?>
 </div>

@@ -53,6 +53,12 @@ $export = wp_nonce_url(
 		</div>
 		<a class="rescue404-button" href="<?php echo esc_url( $export ); ?>"><?php esc_html_e( 'Export this list', '404-rescue' ); ?></a>
 	</header>
+	<?php
+	/**
+	 * Lets 404 Rescue Pro add a link into this screen.
+	 */
+	do_action( 'rescue404_errors_after_header' );
+	?>
 
 	<?php \Rescue404\Admin::render_notices(); ?>
 

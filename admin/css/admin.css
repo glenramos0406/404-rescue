@@ -462,6 +462,12 @@
 	font-size: 12px;
 }
 
+.rescue404-donate {
+	margin: 18px 0 0;
+	color: var(--r404-muted);
+	font-size: 13px;
+}
+
 @media (max-width: 960px) {
 	.rescue404-stats,
 	.rescue404-grid,

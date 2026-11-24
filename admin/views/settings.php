@@ -71,7 +71,7 @@ $days     = (int) ( $settings['retention_days'] ?? 30 );
 			<input type="checkbox" name="<?php echo esc_attr( \Rescue404\Settings::OPTION ); ?>[email_notifications]" value="1" <?php checked( ! empty( $settings['email_notifications'] ) ); ?>>
 			<span>
 				<strong><?php esc_html_e( 'Email reports', '404-rescue' ); ?></strong>
-				<small><?php esc_html_e( 'Your choice is saved for a later version. This version does not send email.', '404-rescue' ); ?></small>
+				<small><?php echo esc_html( apply_filters( 'rescue404_email_help', __( 'Your choice is saved for a later version. This version does not send email.', '404-rescue' ) ) ); ?></small>
 			</span>
 		</label>
 
@@ -86,4 +86,5 @@ $days     = (int) ( $settings['retention_days'] ?? 30 );
 		<?php submit_button( __( 'Save settings', '404-rescue' ) ); ?>
 		<p class="rescue404-version"><?php echo esc_html( sprintf( /* translators: %s: version number */ __( '404 Rescue %s', '404-rescue' ), RESCUE404_VERSION ) ); ?></p>
 	</form>
+	<?php \Rescue404\Admin::donate_note(); ?>
 </div>

@@ -43,6 +43,7 @@ class Admin {
 		add_action( 'admin_enqueue_scripts', array( $this, 'assets' ) );
 		add_action( 'admin_init', array( Settings::class, 'register' ) );
 		add_filter( 'plugin_action_links_' . plugin_basename( RESCUE404_FILE ), array( $this, 'plugin_links' ) );
+		add_filter( 'plugin_row_meta', array( $this, 'plugin_meta' ), 10, 2 );
 
 		add_action( 'admin_post_rescue404_save_redirect', array( $this, 'save_redirect' ) );
 		add_action( 'admin_post_rescue404_delete_redirect', array( $this, 'delete_redirect' ) );
@@ -67,6 +68,52 @@ class Admin {
 		$settings  = '<a href="' . esc_url( self::page_url( 'rescue404-settings' ) ) . '">' . esc_html__( 'Settings', '404-rescue' ) . '</a>';
 		array_unshift( $links, $settings );
 		array_unshift( $links, $dashboard );
+
+		return $links;
+	}
+
+	/**
+	 * PayPal donation page for this plugin.
+	 */
+	public static function donate_url(): string {
+		return 'https://paypal.me/glennramos0406';
+	}
+
+	/**
+	 * Quiet text link shown at the bottom of the plugin's own screens.
+	 */
+	public static function donate_note(): void {
+		echo '<p class="rescue404-donate">';
+		echo wp_kses(
+			sprintf(
+				/* translators: %s: "donate with PayPal" link. */
+				__( 'If 404 Rescue is useful, you can %s.', '404-rescue' ),
+				'<a href="' . esc_url( self::donate_url() ) . '" target="_blank" rel="noopener noreferrer">' . esc_html__( 'donate with PayPal', '404-rescue' ) . '</a>'
+			),
+			array(
+				'a' => array(
+					'href'   => true,
+					'target' => true,
+					'rel'    => true,
+				),
+			)
+		);
+		echo '</p>';
+	}
+
+	/**
+	 * Donate link under the plugin description on the Plugins screen.
+	 *
+	 * @param array<int, string> $links Existing meta links.
+	 * @param string             $file  Plugin basename for this row.
+	 * @return array<int, string>
+	 */
+	public function plugin_meta( array $links, string $file ): array {
+		if ( plugin_basename( RESCUE404_FILE ) !== $file ) {
+			return $links;
+		}
+
+		$links[] = '<a href="' . esc_url( self::donate_url() ) . '" target="_blank" rel="noopener noreferrer">' . esc_html__( 'Donate', '404-rescue' ) . '</a>';
 
 		return $links;
 	}

@@ -766,3 +766,16 @@ msgstr ""
 #: includes/class-suggestions.php:98
 msgid "This might be the right page. Check it before you save a redirect."
 msgstr ""
+
+#. translators: %s: "donate with PayPal" link.
+#: includes/class-admin.php
+msgid "If 404 Rescue is useful, you can %s."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "donate with PayPal"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Donate"
+msgstr ""

@@ -7,6 +7,7 @@ Requires PHP: 8.1
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Donate link: https://paypal.me/glennramos0406
 
 Records missing pages, suggests a page on your site, and lets you send visitors there.
 
